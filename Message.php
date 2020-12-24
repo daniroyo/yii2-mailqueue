@@ -5,10 +5,10 @@
  * @author Saranga Abeykoon http://nterms.com
  */
 
-namespace nterms\mailqueue;
+namespace daniroyo\mailqueue;
 
 use Yii;
-use nterms\mailqueue\models\Queue;
+use daniroyo\mailqueue\models\Queue;
 
 /**
  * Extends `yii\swiftmailer\Message` to enable queuing.

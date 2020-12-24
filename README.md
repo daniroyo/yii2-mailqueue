@@ -33,7 +33,7 @@ return [
     //....
     'components' => [
         'mailqueue' => [
-            'class' => 'nterms\mailqueue\MailQueue',
+            'class' => 'daniroyo\mailqueue\MailQueue',
 			'table' => '{{%mail_queue}}',
 			'mailsPerRound' => 10,
 			'maxAttempts' => 3,
@@ -60,7 +60,7 @@ return [
     //....
     'components' => [
         'mailqueue' => [
-            'class' => 'nterms\mailqueue\MailQueue',
+            'class' => 'daniroyo\mailqueue\MailQueue',
 			'table' => '{{%mail_queue}}',
         ],
     ],
@@ -117,7 +117,7 @@ Yii::$app->mailqueue->compose('contact/html')
      ->queue();
 ```
 
-While `nterms\mailqueue\MailQueue` extends from `yii\swiftmailer\Mailer`, you can replace it with this extension by adding 
+While `daniroyo\mailqueue\MailQueue` extends from `yii\swiftmailer\Mailer`, you can replace it with this extension by adding 
 `yii2-swiftmailer` configuations directly to `mailqueue` configurations as follows:
 
 ```php
@@ -125,7 +125,7 @@ return [
     //....
     'components' => [
         'mailqueue' => [
-            'class' => 'nterms\mailqueue\MailQueue',
+            'class' => 'daniroyo\mailqueue\MailQueue',
 			'table' => '{{%mail_queue}}',
 			'mailsPerRound' => 10,
 			'maxAttempts' => 3,
