@@ -5,7 +5,6 @@ namespace daniroyo\mailqueue\models;
 use Yii;
 use yii\db\ActiveRecord;
 use daniroyo\mailqueue\MailQueue;
-use daniroyo\mailqueue\Message;
 
 /**
  * This is the model class for table "{{%mail_queue}}".
