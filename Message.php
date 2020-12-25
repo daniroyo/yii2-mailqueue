@@ -14,7 +14,7 @@ use daniroyo\mailqueue\models\Queue;
  *
  * @see http://www.yiiframework.com/doc-2.0/yii-swiftmailer-message.html
  */
-class Message extends \yii\swiftmailer\Message
+class Message extends \wadeshuler\sendgrid\Message
 {
     /**
      * Enqueue the message storing it in database.

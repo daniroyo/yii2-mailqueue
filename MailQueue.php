@@ -8,7 +8,7 @@
 namespace daniroyo\mailqueue;
 
 use Yii;
-use yii\swiftmailer\Mailer;
+use wadeshuler\sendgrid\Mailer;
 use daniroyo\mailqueue\models\Queue;
 
 /**
