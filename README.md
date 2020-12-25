@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist nterms/yii2-mailqueue "*"
+php composer.phar require --prefer-dist daniroyo/yii2-mailqueue "*"
 ```
 
 or add
 
 ```
-"nterms/yii2-mailqueue": "*"
+"daniroyo/yii2-mailqueue": "*"
 ```
 
 to the require section of your `composer.json` file.
