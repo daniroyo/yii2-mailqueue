@@ -7,7 +7,6 @@
 
 namespace daniroyo\mailqueue;
 
-use Yii;
 use daniroyo\mailqueue\models\Queue;
 
 /**

@@ -9,7 +9,6 @@ namespace daniroyo\mailqueue;
 
 use Yii;
 use yii\swiftmailer\Mailer;
-use daniroyo\mailqueue\Message;
 use daniroyo\mailqueue\models\Queue;
 
 /**
